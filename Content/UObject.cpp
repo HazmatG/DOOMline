@@ -1,7 +1,9 @@
-#include<iostream>
+class UObject : public UObjectBaseUtility
 
 void main() {
-  int a, b;
-  std::cin >> a >> b;
-  std::cout << a / b << std::endl;
+UObject
+(
+    EStaticConstructor,
+    EObjectFlags InFlags
+)
 }
